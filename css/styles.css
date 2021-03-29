@@ -1,0 +1,31 @@
+@import "reset.css";
+@import "variables.css";
+
+@import "components/alt-screen-header.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/point.css";
+@import "components/icon-row.css";
+
+@import "screens/friends.css";
+@import "screens/login.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* background: linear-gradient(
+    117deg,
+    rgba(184, 73, 235, 1) 0%,
+    rgba(97, 135, 237, 1) 100%
+  ); */
+}
+.main-screen {
+  padding: 0px 25px;
+}

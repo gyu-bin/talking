@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KoKoa Clone</title>
+    <style>
+        body
+        {
+            background-image: url(img/1b44c389-0caf-4a0f-a92c-4b94decc2f54.jfif);
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>SKT</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>78%</span>
+            <i class="fas fa-battery-three-quarters fa-2x"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">BinBin Talk</h1>
+        <p class="welcome-header__text">If you have a BinBin Talk, log in whth you email or phone number.</p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or Phone number"/>
+        <input name="password" type="text" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <input type="submit" value="Sign In"/>
+
+        <a href="#">Fine Kakao Account or Password</a>
+    </form>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"crossorigin="anonymous"></script>
+</body>
+</html> 

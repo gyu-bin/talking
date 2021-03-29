@@ -1,0 +1,126 @@
+body {
+  background-image: url(img/ahd.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+.button {
+  /* background: yellow; */
+  border-radius: 10%;
+  border: 1px solid yellow;
+  z-index: 3;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 15px;
+  /* left: 50px; */
+  padding-right: 10px;
+  padding-top: 10px;
+}
+/* .button:hover {
+  background: yellow;
+  border-radius: 10%;
+  border: 1px solid yellow;
+  z-index: 3;
+  font-size: 20px;
+  position: relative;
+  margin-top: 15px;
+  left: 124px;
+} */
+.text {
+  /* margin-top: 630px; */
+  font-size: 14px;
+  border-radius: 10px;
+  width: 90%;
+  height: 100px;
+  border: 1px solid #fff;
+  padding: 2px;
+  z-index: 1;
+}
+.chat-chatingbar {
+  background-color: #fff;
+  opacity: 0.8;
+  margin-top: 659px;
+  height: auto;
+  width: auto;
+  margin-left: -34px;
+  margin-right: -14px;
+  z-index: 1;
+  position: relative;
+  left: 10px;
+}
+.chat-icon {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 25px;
+  display: flex;
+  z-index: 1;
+}
+.chat-icon i {
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.chat-icon i:hover {
+  color: black;
+  font-size: 25px;
+  display: flex;
+  z-index: 1;
+}
+.chat__timestamp {
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  border-radius: 10%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.user-component__avatar--ch {
+  width: 80px;
+  height: 80px;
+  border-radius: 40%;
+  margin-right: 20px;
+  margin-top: 13px;
+  position: absolute;
+  margin-left: 10px;
+}
+.chat-name {
+  font-size: 30px;
+  margin-left: 105px;
+  margin-top: 20px;
+  height: 30px;
+  display: flex;
+}
+.chat-top {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: auto;
+  height: auto;
+  margin-left: -25px;
+  margin-right: -25px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.chat-icon__cc i {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 95px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.chat-icon__cc i:hover {
+  color: black;
+  margin-left: 95px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.chat-top i:last-child {
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.icon-setting {
+  position: relative;
+  left: 62%;
+}

@@ -1,0 +1,40 @@
+#friends-display-link {
+  text-align: start;
+  display: block;
+  /* background: rgba(0, 0, 0, 0.4); */
+  padding-top: 20px;
+  font-size: 25px;
+  /* margin-bottom: 15px;
+  margin-top: 12px; */
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friend-screen {
+  padding: 0px 25px;
+  margin-top: 15px;
+  padding-bottom: 200px;
+}
+.friend-screen__chaneel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+}
+.friend-screen__channel-header {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+.friend-birthay {
+  font-size: 20px;
+}
+#friends-display-link .birthday i {
+  font-size: 25px;
+  background-color: rgb(238, 122, 102);
+  border-radius: 30%;
+  padding: 7px;
+  color: #fff;
+}
